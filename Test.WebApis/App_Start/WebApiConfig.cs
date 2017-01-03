@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web.Http;
+﻿using System.Web.Http;
 
 namespace Test.WebApis
 {
@@ -9,6 +6,7 @@ namespace Test.WebApis
     {
         public static void Register(HttpConfiguration config)
         {
+            UnityConfig.RegisterComponents();
             // Web API 配置和服务
 
             // Web API 路由
